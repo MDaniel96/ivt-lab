@@ -81,7 +81,7 @@ public class GT4500 implements SpaceShip {
         //TODO implement feature
 
         boolean firingSuccessPri = primaryTorpedoStore.fire(1);
-        // új sor
+        // új sor kicsit máshogy
         boolean firingSuccessSec = secondaryTorpedoStore.fire(1);
 
         if (firingSuccessPri || firingSuccessSec)
